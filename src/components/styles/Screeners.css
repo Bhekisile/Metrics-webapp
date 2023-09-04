@@ -1,0 +1,28 @@
+.screenersList {
+  width: 50%;
+  height: 390px;
+  margin: 20px auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+}
+
+.innerList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.innerList li {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.color:nth-child(even) {
+    background-color: #f0f6fc;
+}
+
+.back-icon {
+    margin-left: 50px;
+}
