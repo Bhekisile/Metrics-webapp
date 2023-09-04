@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { HiArrowUturnLeft } from 'react-icons/hi2';
+import { HiChevronLeft } from 'react-icons/hi2';
 import { Link } from 'react-router-dom';
 import { fetchStockScreener } from '../redux/stockScreener/StockScreenersSlice';
 import '../components/styles/Screeners.css';
@@ -19,7 +19,7 @@ function Screeners() {
 
   return (
     <div className="screenersContain">
-      <Link className="back-icon" to="/"><HiArrowUturnLeft /></Link>
+      <Link className="back-icon" to="/"><HiChevronLeft /></Link>
       <div key={stockScreeners.symbol} className="screenersList">
         <div style={{ backgroundColor: '#c5d9ed' }}>
           <p
