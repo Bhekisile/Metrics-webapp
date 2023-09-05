@@ -149,6 +149,8 @@ If you like this project you can star the repository.
 
 I would like to thank Microverse for giving me all the necessary knowledge I need to make this project.
 
+[Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), as required by the [Creative Commons License](https://creativecommons.org/licenses/).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
