@@ -21,12 +21,12 @@ function Company() {
       </ul>
       <div className="companyContainer">
         {stockScreeners.searchStockCompany.map((screener) => (
-          <div key={screener.symbol}>
+          <div className="company-card" key={screener.symbol}>
             <Link
               to="/Screeners"
               onClick={() => dispatch(selectCompany(screener))}
             >
-              <ul className="company-card" key={screener.symbol}>
+              <ul className="company-list" key={screener.symbol}>
                 <li style={{ fontFamily: 'stencil Std, fantasy', fontSize: '24px' }}>{screener.symbol}</li>
                 <li style={{ marginBottom: '50px' }}>{screener.country}</li>
                 <li style={{ fontFamily: 'Chalkduster, fantasy' }}>{screener.companyName}</li>

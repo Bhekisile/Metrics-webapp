@@ -28,6 +28,7 @@ function Screeners() {
               marginBottom: '5px',
               paddingLeft: '10px',
               fontFamily: 'stencil Std, fantasy',
+              height: '40px',
             }}
           >
             {stockScreeners.symbol}
@@ -37,6 +38,7 @@ function Screeners() {
               paddingBottom: '10px',
               paddingLeft: '10px',
               fontFamily: 'Chalkduster, fantasy',
+              height: '40px',
             }}
           >
             {stockScreeners.companyName}
