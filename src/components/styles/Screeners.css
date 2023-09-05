@@ -1,5 +1,5 @@
 .screenersList {
-  width: 50%;
+  width: 90%;
   height: 390px;
   margin: 20px auto;
   box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
@@ -19,10 +19,20 @@
     padding-right: 10px;
 }
 
-.color:nth-child(even) {
-    background-color: #f0f6fc;
+.back-icon {
+    padding-top: 20px;
+    margin-left: 25px;
+    width: 30px;
+    height: 30px;
 }
 
-.back-icon {
-    margin-left: 50px;
+@media (min-width: 768px) {
+
+    .screenersList {
+        width: 60%;
+        height: 390px;
+        margin: 20px auto;
+        box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+      }
+
 }

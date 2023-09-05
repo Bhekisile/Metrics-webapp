@@ -3,7 +3,21 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: #646970;
+  background-color: #f0f6fc;
 }
+
+.nav-bar {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    list-style: none;
+    height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Papyrus', fantasy, sans-serif;
+    font-size: 28px;
+    padding-right: 15px;
+  }
 
 .companyContainer {
     margin: 2% auto;
@@ -30,11 +44,42 @@ body {
     margin-bottom: 10px;
 }
 
-.company-card:nth-child(even) {
-    background-color: #f0f6fc;
+.company-card:nth-child(odd) {
+    background-color: #c5d9ed;
+    border: 1px solid #fff;
 }
+
+.company-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    border: 2px solid #fff;
+  }  
 
 a {
     text-decoration: none;
     color: #646970;
+}
+
+@media (min-width: 768px) {
+
+    .company-card:nth-child(2n + 1),
+    .company-card:nth-child(2n + 3),
+    .company-card:nth-child(2n + 5),
+    .company-card:nth-child(2n + 7) {
+        background-color: #c5d9ed;
+        border: 1px solid #fff;
+    }
+
+    .nav-bar {
+        display: flex;
+        gap: 10%;
+        align-items: center;
+        list-style: none;
+        height: 80px;
+        width: 60%;
+        margin: 0 auto;
+        font-family: 'Papyrus', fantasy, sans-serif;
+        font-size: 28px;
+        padding-right: 15px;
+      }
 }
