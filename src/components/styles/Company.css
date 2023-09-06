@@ -38,14 +38,6 @@ a {
   color: #646970;
 }
 
-/* .company-card:nth-child(8n + 2),
-.company-card:nth-child(8n + 4),
-.company-card:nth-child(8n + 5),
-.company-card:nth-child(8n + 7) {
-  background-color: rgb(197, 217, 237);
-  border: 2px solid #fff;
-} */
-
 @media (min-width: 2434px) {
   .company-card:nth-child(16n + 2),
   .company-card:nth-child(16n + 4),
