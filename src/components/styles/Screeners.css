@@ -1,0 +1,36 @@
+.screenersList {
+  width: 90%;
+  height: 390px;
+  margin: 20px auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+}
+
+.innerList {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.innerList li {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.back-icon {
+  padding-top: 20px;
+  margin-left: 25px;
+  width: 30px;
+  height: 30px;
+}
+
+@media (min-width: 768px) {
+  .screenersList {
+    width: 60%;
+    height: 390px;
+    margin: 20px auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+  }
+}
