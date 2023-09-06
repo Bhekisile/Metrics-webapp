@@ -5,10 +5,10 @@ function Navigation() {
   return (
     <ul className="nav-bar">
       <li className="subject">
-        <Link to="/">Stock Screener</Link>
+        <Link to="/" />
       </li>
       <li>
-        <Link to="/screeners">search</Link>
+        <Link to="/screeners" />
       </li>
       <li />
     </ul>

@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { HiChevronLeft } from 'react-icons/hi2';
 import { Link } from 'react-router-dom';
@@ -6,20 +6,25 @@ import { fetchStockScreener } from '../redux/stockScreener/StockScreenersSlice';
 import '../components/styles/Screeners.css';
 
 function Screeners() {
-  const dispatch = useDispatch();
   const stockScreeners = useSelector((state) => state.stockScreeners.selectedCompany);
+  const dispatch = useDispatch();
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
-    dispatch(fetchStockScreener());
+    const fetchData = async () => {
+      setIsLoading(true);
+      dispatch(fetchStockScreener());
+      setIsLoading(false);
+    };
+    fetchData();
   }, [dispatch]);
-
-  if (!stockScreeners) {
-    return <div>Loading...</div>;
-  }
 
   return (
     <div className="screenersContain">
-      <Link className="back-icon" to="/"><HiChevronLeft /></Link>
+      {isLoading && <div>Loading...</div>}
+      <Link className="back-icon" to="/">
+        <HiChevronLeft />
+      </Link>
       <div key={stockScreeners.symbol} className="screenersList">
         <div style={{ backgroundColor: '#c5d9ed' }}>
           <p

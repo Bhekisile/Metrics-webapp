@@ -26,7 +26,7 @@
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
-**[Stock Screeners]** is a metric website. It provides stock rankings according to the company name and lists companies that meet the criteria. It offers users the choice to search the page by company name and displays screeners' details. The data is extracted from the Financial Modeling Prep API. 
+**[Stock Screeners]** is a metric website containing data or parameters used for stock screening. It displays a list of companies from all over the world with the corresponding parameters and values. The user can filter the application by company's name. It is more beneficial to those who search for stocks. The data is extracted from the Financial Modeling Prep API. 
 
 ## 🛠 Built With <a name="built-with"></a>
 

@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screeners component matches snapshot 1`] = `
+<div>
+  <div
+    class="screenersContain"
+  >
+    <a
+      class="back-icon"
+      href="/"
+    >
+      <svg
+        aria-hidden="true"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M7.72 12.53a.75.75 0 010-1.06l7.5-7.5a.75.75 0 111.06 1.06L9.31 12l6.97 6.97a.75.75 0 11-1.06 1.06l-7.5-7.5z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </a>
+    <div
+      class="screenersList"
+    >
+      <div
+        style="background-color: rgb(197, 217, 237);"
+      >
+        <p
+          style="padding-top: 10px; margin-bottom: 5px; padding-left: 10px; font-family: stencil Std, fantasy; height: 40px;"
+        />
+        <p
+          style="padding-bottom: 10px; padding-left: 10px; font-family: Chalkduster, fantasy; height: 40px;"
+        />
+      </div>
+      <ul
+        class="innerList"
+        style="background-color: rgb(240, 246, 252);"
+      >
+        <li>
+          Beta
+        </li>
+        <li />
+      </ul>
+      <ul
+        class="innerList"
+        style="background-color: rgb(197, 217, 237);"
+      >
+        <li>
+          Price
+        </li>
+        <li />
+      </ul>
+      <ul
+        class="innerList"
+        style="background-color: rgb(240, 246, 252);"
+      >
+        <li>
+          Last Annual Dividend
+        </li>
+        <li />
+      </ul>
+      <ul
+        class="innerList"
+        style="background-color: rgb(197, 217, 237);"
+      >
+        <li>
+          Volume
+        </li>
+        <li />
+      </ul>
+      <ul
+        class="innerList"
+        style="background-color: rgb(240, 246, 252);"
+      >
+        <li>
+          Exchange
+        </li>
+        <li />
+      </ul>
+      <ul
+        class="innerList"
+        style="background-color: rgb(197, 217, 237);"
+      >
+        <li>
+          Market Cap
+        </li>
+        <li />
+      </ul>
+    </div>
+  </div>
+</div>
+`;

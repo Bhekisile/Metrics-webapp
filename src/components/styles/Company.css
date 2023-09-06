@@ -6,26 +6,14 @@ body {
   background-color: #f0f6fc;
 }
 
-.nav-bar {
-  display: flex;
-  gap: 10%;
-  align-items: center;
-  list-style: none;
-  height: 80px;
-  width: 80%;
-  margin: 0 auto;
-  font-family: 'Papyrus', fantasy, sans-serif;
-  font-size: 28px;
-  padding-right: 15px;
-}
-
 .companyContainer {
-  margin: 2% auto;
-  width: 90%;
   height: 100%;
+  width: 90%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.7rem;
+  margin: 0 auto;
+  padding-top: 1rem;
 }
 
 .company-card {
@@ -34,18 +22,12 @@ body {
   margin-bottom: 10px;
   text-align: center;
   padding-top: 20px;
-  text-decoration: none;
   box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
 }
 
 .company-card li {
   list-style: none;
   margin-bottom: 10px;
-}
-
-.company-card:nth-child(odd) {
-  background-color: #c5d9ed;
-  border: 1px solid #fff;
 }
 
 .company-card:hover {
@@ -59,25 +41,182 @@ a {
   color: #646970;
 }
 
-@media (min-width: 768px) {
-  .company-card:nth-child(2n + 1),
-  .company-card:nth-child(2n + 3),
-  .company-card:nth-child(2n + 5),
-  .company-card:nth-child(2n + 7) {
-    background-color: #c5d9ed;
+/* .company-card:nth-child(8n + 2),
+.company-card:nth-child(8n + 4),
+.company-card:nth-child(8n + 5),
+.company-card:nth-child(8n + 7) {
+  background-color: rgb(197, 217, 237);
+  border: 2px solid #fff;
+} */
+
+@media (min-width: 2434px) {
+  .company-card:nth-child(16n + 2),
+  .company-card:nth-child(16n + 4),
+  .company-card:nth-child(16n + 6),
+  .company-card:nth-child(16n + 7),
+  .company-card:nth-child(16n + 8),
+  .company-card:nth-child(16n + 9),
+  .company-card:nth-child(16n + 11),
+  .company-card:nth-child(16n + 13),
+  .company-card:nth-child(16n + 15) {
+    background-color: rgb(197, 217, 237);
     border: 1px solid #fff;
   }
 
-  .nav-bar {
-    display: flex;
-    gap: 10%;
-    align-items: center;
-    list-style: none;
-    height: 80px;
-    width: 60%;
-    margin: 0 auto;
-    font-family: 'Papyrus', fantasy, sans-serif;
-    font-size: 28px;
-    padding-right: 15px;
+  .company-card:nth-child(16n + 1),
+  .company-card:nth-child(16n + 3),
+  .company-card:nth-child(16n + 5),
+  .company-card:nth-child(16n + 7),
+  .company-card:nth-child(16n + 10),
+  .company-card:nth-child(16n + 12),
+  .company-card:nth-child(16n + 14),
+  .company-card:nth-child(16n + 16) {
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 2433px) {
+  .company-card:nth-child(12n + 2),
+  .company-card:nth-child(12n + 4),
+  .company-card:nth-child(12n + 6),
+  .company-card:nth-child(12n + 7),
+  .company-card:nth-child(12n + 8),
+  .company-card:nth-child(12n + 10),
+  .company-card:nth-child(12n + 12),
+  .company-card:nth-child(12n + 14) {
+    background-color: rgb(197, 217, 237);
+    border: 1px solid #fff;
+  }
+
+  .company-card:nth-child(12n + 1),
+  .company-card:nth-child(12n + 3),
+  .company-card:nth-child(12n + 5),
+  .company-card:nth-child(12n + 7),
+  .company-card:nth-child(12n + 9),
+  .company-card:nth-child(12n + 11),
+  .company-card:nth-child(12n + 13) {
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 2125px) {
+  .company-card:nth-child(12n + 2),
+  .company-card:nth-child(12n + 4),
+  .company-card:nth-child(12n + 6),
+  .company-card:nth-child(12n + 7),
+  .company-card:nth-child(12n + 9),
+  .company-card:nth-child(12n + 11) {
+    background-color: rgb(197, 217, 237);
+    border: 1px solid #fff;
+  }
+
+  .company-card:nth-child(12n + 1),
+  .company-card:nth-child(12n + 3),
+  .company-card:nth-child(12n + 5),
+  .company-card:nth-child(12n + 8),
+  .company-card:nth-child(12n + 10),
+  .company-card:nth-child(12n + 12) {
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 1817px) {
+  .company-card:nth-child(8n + 2),
+  .company-card:nth-child(8n + 4),
+  .company-card:nth-child(8n + 6),
+  .company-card:nth-child(8n + 8),
+  .company-card:nth-child(8n + 10) {
+    background-color: rgb(197, 217, 237);
+    border: 1px solid #fff;
+  }
+
+  .company-card:nth-child(8n + 1),
+  .company-card:nth-child(8n + 3),
+  .company-card:nth-child(8n + 5),
+  .company-card:nth-child(8n + 7),
+  .company-card:nth-child(8n + 9) {
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 1509px) {
+  .company-card:nth-child(8n + 2),
+  .company-card:nth-child(8n + 4),
+  .company-card:nth-child(8n + 5),
+  .company-card:nth-child(8n + 7) {
+    background-color: rgb(197, 217, 237);
+    border: 1px solid #fff;
+  }
+
+  .company-card:nth-child(8n + 1),
+  .company-card:nth-child(8n + 3),
+  .company-card:nth-child(8n + 6),
+  .company-card:nth-child(8n + 8) {
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 1201px) {
+  .company-card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .company-card:nth-child(8n + 2),
+  .company-card:nth-child(8n + 4),
+  .company-card:nth-child(8n + 6),
+  .company-card:nth-child(8n + 8) {
+    background-color: rgb(197, 217, 237);
+    border: 1px solid #fff;
+  }
+
+  .company-card:nth-child(8n + 1),
+  .company-card:nth-child(8n + 3),
+  .company-card:nth-child(8n + 5),
+  .company-card:nth-child(8n + 7) {
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 893px) {
+  .company-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .company-card:nth-child(8n + 2),
+  .company-card:nth-child(8n + 3),
+  .company-card:nth-child(8n + 6),
+  .company-card:nth-child(8n + 7) {
+    background-color: rgb(197, 217, 237);
+    border: 1.5px solid #fff;
+  }
+
+  .company-card:nth-child(8n + 1),
+  .company-card:nth-child(8n + 4),
+  .company-card:nth-child(8n + 5),
+  .company-card:nth-child(8n + 8) {
+    background-color: #fff;
+    border: 1px solid #b4b4b4;
+  }
+}
+
+@media (max-width: 585px) {
+  .company-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .company-card:nth-child(8n + 1),
+  .company-card:nth-child(8n + 3),
+  .company-card:nth-child(8n + 5),
+  .company-card:nth-child(8n + 7) {
+    background-color: rgb(197, 217, 237);
+    border: 1.5px solid #fff;
+  }
+
+  .company-card:nth-child(8n + 2),
+  .company-card:nth-child(8n + 4),
+  .company-card:nth-child(8n + 6),
+  .company-card:nth-child(8n + 8) {
+    background-color: #fff;
+    border: 1px solid #b4b4b4;
   }
 }
