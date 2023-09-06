@@ -185,6 +185,6 @@ a {
   .company-card:nth-child(8n + 4),
   .company-card:nth-child(8n + 5),
   .company-card:nth-child(8n + 8) {
-    background-color:#fff;
+    background-color: #fff;
   }
 }
