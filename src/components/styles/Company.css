@@ -3,7 +3,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: #646970;
-  background-color: #f2f1f1;
+  background-color: #f0f6fc;
 }
 
 .companyContainer {
@@ -48,7 +48,7 @@ a {
   .company-card:nth-child(16n + 11),
   .company-card:nth-child(16n + 13),
   .company-card:nth-child(16n + 15) {
-    background-color: rgb(197, 217, 237);
+    background-color: #f0f6fc;
   }
 
   .company-card:nth-child(16n + 1),
@@ -59,7 +59,7 @@ a {
   .company-card:nth-child(16n + 12),
   .company-card:nth-child(16n + 14),
   .company-card:nth-child(16n + 16) {
-    background-color: #fff;
+    background-color: #c5d9ed;
   }
 }
 
@@ -72,7 +72,7 @@ a {
   .company-card:nth-child(12n + 10),
   .company-card:nth-child(12n + 12),
   .company-card:nth-child(12n + 14) {
-    background-color: rgb(197, 217, 237);
+    background-color: #f0f6fc;
   }
 
   .company-card:nth-child(12n + 1),
@@ -82,7 +82,7 @@ a {
   .company-card:nth-child(12n + 9),
   .company-card:nth-child(12n + 11),
   .company-card:nth-child(12n + 13) {
-    background-color: #fff;
+    background-color: #c5d9ed;
   }
 }
 
@@ -93,7 +93,7 @@ a {
   .company-card:nth-child(12n + 7),
   .company-card:nth-child(12n + 9),
   .company-card:nth-child(12n + 11) {
-    background-color: rgb(197, 217, 237);
+    background-color: #f0f6fc;
   }
 
   .company-card:nth-child(12n + 1),
@@ -102,7 +102,7 @@ a {
   .company-card:nth-child(12n + 8),
   .company-card:nth-child(12n + 10),
   .company-card:nth-child(12n + 12) {
-    background-color: #fff;
+    background-color: #c5d9ed;
   }
 }
 
@@ -112,7 +112,7 @@ a {
   .company-card:nth-child(8n + 6),
   .company-card:nth-child(8n + 8),
   .company-card:nth-child(8n + 10) {
-    background-color: rgb(197, 217, 237);
+    background-color: #f0f6fc;
   }
 
   .company-card:nth-child(8n + 1),
@@ -120,7 +120,7 @@ a {
   .company-card:nth-child(8n + 5),
   .company-card:nth-child(8n + 7),
   .company-card:nth-child(8n + 9) {
-    background-color: #fff;
+    background-color: #c5d9ed;
   }
 }
 
@@ -129,14 +129,14 @@ a {
   .company-card:nth-child(8n + 4),
   .company-card:nth-child(8n + 5),
   .company-card:nth-child(8n + 7) {
-    background-color: rgb(197, 217, 237);
+    background-color: #f0f6fc;
   }
 
   .company-card:nth-child(8n + 1),
   .company-card:nth-child(8n + 3),
   .company-card:nth-child(8n + 6),
   .company-card:nth-child(8n + 8) {
-    background-color: #fff;
+    background-color: #c5d9ed;
   }
 }
 
@@ -149,14 +149,14 @@ a {
   .company-card:nth-child(8n + 4),
   .company-card:nth-child(8n + 6),
   .company-card:nth-child(8n + 8) {
-    background-color: rgb(197, 217, 237);
+    background-color: #f0f6fc;
   }
 
   .company-card:nth-child(8n + 1),
   .company-card:nth-child(8n + 3),
   .company-card:nth-child(8n + 5),
   .company-card:nth-child(8n + 7) {
-    background-color: #fff;
+    background-color: #c5d9ed;
   }
 }
 
@@ -170,13 +170,13 @@ a {
   .company-card:nth-child(8n + 3),
   .company-card:nth-child(8n + 6),
   .company-card:nth-child(8n + 7) {
-    background-color: rgb(197, 217, 237);
+    background-color: #f0f6fc;
   }
 
   .company-card:nth-child(8n + 1),
   .company-card:nth-child(8n + 4),
   .company-card:nth-child(8n + 5),
   .company-card:nth-child(8n + 8) {
-    background-color: #fff;
+    background-color: #c5d9ed;
   }
 }
